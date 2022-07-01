@@ -5,7 +5,7 @@ import openpyxl
 
 
 def loc_label(location):
-    dict = pd.read_excel(r"C:\Users\gilberto.tovar\test\Countries and Regions.xlsx")
+    dict = pd.read_excel(r"Countries and Regions.xlsx")
 
     split = location.split(',')
     if len(split) == 1:
@@ -28,7 +28,7 @@ def loc_label(location):
     return country
 
 
-df = pd.read_csv(r'C:\Users\gilberto.tovar\test\data copy.csv')
+df = pd.read_csv(r'data copy.csv')
 
 list = []
 for i in range(len(df)):
