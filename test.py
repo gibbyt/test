@@ -1,4 +1,3 @@
-from cProfile import label
 import pandas as pd
 import numpy as np
 import openpyxl
@@ -20,25 +19,28 @@ def loc_label(location):
             return "EMEA"
         return "NA"
 
+    if "United States of America" in country:
+        return "NA"
+    if "Canada" in country:
+        return "NA"
+
+
     #check in dictionary
     for i in range(len(dict)):
         if dict.loc[i, "Country"] in country:
             return dict.loc[i, "Region"]
-    #return the label
-    return country
+    #If not a region
+    return "Other"
 
 
-df = pd.read_csv(r'data copy.csv')
-
+df = pd.read_csv(r'data.csv')
 list = []
 for i in range(len(df)):
     label = loc_label(df.loc[i, "Location"])
     list.append(label)
 df["Region"] = list
+df.to_csv("data.csv")  
 
-
-
-
-
+print("Done")
 
 

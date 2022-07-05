@@ -1,7 +1,8 @@
-Job_ID,Title,Location,Area,Field
-539902483887229,"Product Design Intern (2022)","Tel Aviv, Israel","Internship - Engineering, Tech & Design",Design
-496059834916735,"Production Engineer | Ingénieur de production","Remote, Canada",Infrastructure,"Production Engineering"
-496059834916735,"Production Engineer | Ingénieur de production","Vancouver, BC",Infrastructure,"Production Engineering"
-173312608288981,"Research Intern, Artificial Intelligence","Pittsburgh, PA","Internship - PhD","Artificial Intelligence"
-173312608288981,"Research Intern, Artificial Intelligence","Austin, TX","Internship - PhD","Artificial Intelligence"
-173312608288981,"Research Intern, Artificial Intelligence","Menlo Park, CA","Internship - PhD","Artificial Intelligence"
+,Unnamed: 0.16,Unnamed: 0.15,Unnamed: 0.14,Unnamed: 0.13,Unnamed: 0.12,Unnamed: 0.11,Unnamed: 0.10,Unnamed: 0.9,Unnamed: 0.8,Unnamed: 0.7,Unnamed: 0.6,Unnamed: 0.5,Unnamed: 0.4,Unnamed: 0.3,Unnamed: 0.2,Unnamed: 0.1,Unnamed: 0,Job_ID,Title,Location,Area,Field,Region
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,539902483887229,Product Design Intern (2022),"Tel Aviv, Israel","Internship - Engineering, Tech & Design",Design,EMEA
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,496059834916735,Production Engineer | Ingénieur de production,"Remote, Canada",Infrastructure,Production Engineering,NA
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,496059834916735,Production Engineer | Ingénieur de production,"Vancouver, BC",Infrastructure,Production Engineering,NA
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,173312608288981,"Research Intern, Artificial Intelligence","Pittsburgh, United States of America
+",Internship - PhD,Artificial Intelligence,NA
+4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,173312608288981,"Research Intern, Artificial Intelligence","Austin, TX",Internship - PhD,Artificial Intelligence,NA
+5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,173312608288981,"Research Intern, Artificial Intelligence","Menlo Park, CA",Internship - PhD,Artificial Intelligence,NA
